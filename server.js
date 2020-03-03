@@ -6,6 +6,7 @@ var app = express()
 //to get the servers port number
 var PORT = process.env.PORT || 8080
 
+//importing express handlebars
 var exphbs = require("express-handlebars")
 //main is default layout receives html tag from the all the handlebars
 app.engine("handlebars",exphbs({defaultLayout: "main"}))

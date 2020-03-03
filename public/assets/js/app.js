@@ -1,3 +1,4 @@
+// Add Burger to Database Button
 $("#addBtn").on("click",function(){
 
     var getBurgerName = $("#burgerTxt").val()

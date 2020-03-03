@@ -1,3 +1,4 @@
+//Setting up dependency for file
 var burgers = require("../models/burgers")
 function burger_controller(app){
 

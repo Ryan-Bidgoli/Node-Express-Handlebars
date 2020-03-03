@@ -19,7 +19,7 @@ app.use(express.urlencoded({extended:true}))
 app.use(express.json())
 // imports the controller into the server
 var burger_controller = require("./controllers/burger_controller")
-
+//passing app in burger_controller function
 burger_controller(app)
 
 //does git request for public folder as a route(url) path, http://localhost:8080/assets

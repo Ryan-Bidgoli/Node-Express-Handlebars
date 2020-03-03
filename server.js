@@ -2,6 +2,7 @@ var express = require("express")
 var app = express()
  
 //deploying to heroku or my computer
+//to get the servers port number
 var PORT = process.env.PORT || 8080
 
 var exphbs = require("express-handlebars")

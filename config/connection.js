@@ -1,6 +1,7 @@
 //importing mysql into connection file
 var mysql = require("mysql")
 var connection;
+//setting up the connection to mySQL database
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL)
 

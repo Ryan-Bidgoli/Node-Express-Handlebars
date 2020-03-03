@@ -1,7 +1,7 @@
 //Setting up dependency for file
 var burgers = require("../models/burgers")
 function burger_controller(app){
-
+   //app.get will use the selectAll functions set up on orm.js and burgers.js
     app.get("/",function(req,res){
        burgers.selectAll(function(data){
            console.log(data)

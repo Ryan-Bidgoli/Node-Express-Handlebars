@@ -2,6 +2,7 @@
 var burgers = require("../models/burgers")
 function burger_controller(app){
    //app.get will use the selectAll functions set up on orm.js and burgers.js
+   //access database to display all the burgers in the burger table
     app.get("/",function(req,res){
        burgers.selectAll(function(data){
            console.log(data)

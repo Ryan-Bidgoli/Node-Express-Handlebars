@@ -25,7 +25,7 @@ burger_controller(app)
 //does git request for public folder as a route(url) path, http://localhost:8080/assets
 app.use(express.static("public"))
 
-
+//Starting Server to listen to client requests
 app.listen(PORT,function(){
     console.log("app is listening http://localhost:"+PORT)
 })

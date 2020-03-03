@@ -11,7 +11,7 @@ function burger_controller(app){
        })
        
     })
-
+    //app.post will update functions set up in orm.js and burger.js 
     app.post("/api/burgers", function(req,res){
         console.log(req.body)
         burgers.create(req.body,function(data){

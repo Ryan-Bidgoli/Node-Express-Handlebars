@@ -15,6 +15,7 @@ app.set("view engine","handlebars")
 
 //middleware to translate user input into json so server can repeat it
 app.use(express.urlencoded({extended:true}))
+//calling middleware to accept request
 app.use(express.json())
 // imports the controller into the server
 var burger_controller = require("./controllers/burger_controller")

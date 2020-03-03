@@ -1,7 +1,7 @@
 //requiring orm to access object in file
 var orm = require("../config/orm");
 
-
+//burger object that gets called in burger_controllers
  var burgers={
   selectAll:function(cb){
       orm.selectAll("burgers",function(data){

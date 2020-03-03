@@ -1,3 +1,4 @@
+//requiring orm to access object in file
 var orm = require("../config/orm");
 
 

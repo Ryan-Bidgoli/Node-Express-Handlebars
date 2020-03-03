@@ -22,5 +22,5 @@ var orm = require("../config/orm");
   }
 
 }
-
+//exporting burger object for use in other files
 module.exports = burgers

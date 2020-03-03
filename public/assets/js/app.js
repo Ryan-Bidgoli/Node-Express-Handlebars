@@ -16,7 +16,7 @@ alert("collect")
         location.reload()
     })
 }) 
-
+// Update Burger from Database Button
 $("#devouredBtn").on("click", function(){
      var id = $(this).attr("data-id")
 console.log(id)

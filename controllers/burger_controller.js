@@ -19,7 +19,7 @@ function burger_controller(app){
              res.render("index",{burgers:data})
         })
     })
-
+   //app.put will use the update functions set up in orm.js and burger.js 
    app.put("/api/burgers/:id", function(req,res){
          var id = req.params.id
          var devoured = req.body.devoured

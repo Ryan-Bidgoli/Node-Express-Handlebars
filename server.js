@@ -10,6 +10,7 @@ var PORT = process.env.PORT || 8080
 var exphbs = require("express-handlebars")
 //main is default layout receives html tag from the all the handlebars
 app.engine("handlebars",exphbs({defaultLayout: "main"}))
+//providing handlebars between view and browser
 app.set("view engine","handlebars")
 
 //middleware to translate user input into json so server can repeat it
